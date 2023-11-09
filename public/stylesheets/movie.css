@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide{
+  width: 30%;
+  height: 100%;
+  background-color:#000;
+}
+
+.slide2>img{
+  scale: 0.8;
+  
+}
+.slide2{
+  width: 70%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  z-index: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slide-bar{
+  width: 300px;
+  height: 300px;
+  /* background-color: red; */
+  padding-top: 5vw;
+  transform: translateY(270px);
+}
+
+.slide-bar>button{
+  padding: 6px 8px;
+  background-color: #AD9154;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 1.1vw;
+  margin-bottom: 10px !important;
+}
+button>i{
+  padding: 5px;
+}
+
+
+.slide-bar>h1{
+  font-weight: 900;
+  color: #fff;
+  font-size: 1.8vw;
+}
+.slide-bar>p{
+  font-size: 1vw;
+  color:#424344;
+}
+
+#btn{
+  background-color: #B10374;
+  padding: 10px 20px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#btn>i{
+  padding: 7px;
+}
+
+
+.slide2>#tag{
+  border-radius: 10px;
+  opacity: 0.7;
+  width: 1050px;
+  height: 620px;
+}
+
+
+
+.main{
+ transform: translateX(-40px);
+}
+
+#center{
+  width: 100vw;
+  height: 40vh;
+  background: url(https://v3img.voot.com/resizeMedium,w_1920,h_411/v3Storage/assets/ghuspaith-14x3-1696522045113.jpg?imformat=chrome);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+#center:hover{
+  opacity: 0.95;
+}
+#page2{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+  position: relative;
+  overflow-x: auto;
+}
+
+.head>h1{
+  color: #fff;
+  font-size: 1.5vw;
+  padding: 10px 40px;
+}
+
+
+.slider-part{
+  width: 96vw;
+  margin: auto;
+  white-space: nowrap;
+  height:45vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.slider-part::-webkit-scrollbar{
+  display: none;
+}
+
+.child{
+  width: 16vw;
+  height: 45vh;
+  position: relative;
+  padding: 3px;
+  display: inline-block;
+  scroll-behavior: smooth;  
+}
+
+.child>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.child:hover img{
+  opacity: 0.8;
+}
+
+#page3{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page4{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page5{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page6{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page7{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page8{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page9{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page10{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page11{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#page12{
+  width: 100vw;
+  height: 60vh;
+  background-color: #000;
+}
+
+#footer{
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  background-color:#17181A;
+}
+
+.slider3{
+ display: flex;
+ align-items: center;
+ /* gap: 1.5vw; */
+}
+
+.child1{
+color: #fff;
+padding: 3vw;
+}
+
+.child1>h2{
+  margin-bottom: 10px;
+}
+
+.child1>p{
+  line-height: 2.2;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+.partial{
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  margin-bottom: 5vw;
+}
+
+.child3{
+  margin-left: 25vw;
+  line-height: 2.5;
+}
+
+.child3>h2{
+  color: #fff;
+}
+
+.child4{
+  line-height: 2;
+}
+
+.child4>h1{
+ color: #fff;
+}
+
+.child4>img{
+  padding: 5px;
+}
+
+.child3>i{
+  color: #fff;
+  font-size: 1.6vw;
+  padding: 17px 16px;
+  border-radius: 50px;
+  background-color: #333436;
+}
+
+#footer1{
+  width: 100vw;
+  height: 15vh;
+  background-color: #202123;
+  border-top: 0.5px solid #fff;
+  overflow: hidden;
+  
+  
+}
+
+.last{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;  
+  margin-top: 1.3vw;
+}
+
+.last>img{
+  width: 70px;
+  transform: translateX(-15px);
+}
+
+.last>p{
+  color: #fff;
+  font-size: 1.1vw;
+}

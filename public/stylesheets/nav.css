@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Domine&family=Kanit&family=Libre+Franklin&family=Lobster&family=Merriweather:ital,wght@1,700&family=Noto+Serif:ital@1&family=Oswald&family=Pangolin&family=Poppins&family=Quicksand&family=Roboto+Mono:ital@1&family=Roboto:wght@300;400;500&family=Rubik&family=Satisfy&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+
+nav{
+  width: 100vw;
+  height: 15vh;
+  background-color: #0D0E10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw;
+}
+
+#part{
+  display: flex;
+  align-items: center;
+}
+
+#part>ul>a{
+  color: #fff;
+  margin: 1vw;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+#part>ul>a:nth-child(1){
+  padding: 7px 15px;
+  border: 1.5px solid #AD9154;
+  border-radius: 50px;
+  color: #AD9154;
+}
+
+#part>ul>a:hover{
+  color: #AD9154;
+}
+
+
+#part2{ 
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+#part2>input{
+  width: 220px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: 0;
+  height: 40px;
+  border-radius: 50px;
+  padding: 1.5vw;
+}
+
+#part2>img{
+  width: 40px;
+}
+
+#part2>i{
+ color: #fff;
+ transform: translateX(-40px);
+}

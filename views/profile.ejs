@@ -1,0 +1,27 @@
+<%- include('partial/header') %>
+<style>
+    body{
+        background-color:aliceblue;
+        
+        
+    }
+
+    #center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #center>h1{
+        color: green;
+    }
+
+    
+</style>
+<%#- include('partial/nav') %>
+<div id="center">
+      <h1>Login Successful</h1>
+      <p><%#= data.name %></p>
+</div>
+<%- include('partial/footer') %>
